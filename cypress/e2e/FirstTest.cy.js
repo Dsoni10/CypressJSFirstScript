@@ -7,6 +7,7 @@ describe('My First Test', () => {
 
     // Should be on a new URL which
     // includes '/commands/actions'
+    //yes
     cy.url().should('include', '/commands/actions')
   })
 })
